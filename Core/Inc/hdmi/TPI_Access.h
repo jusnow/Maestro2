@@ -5,6 +5,7 @@
 /*  or by any means without written permission of: Silicon Image, Inc.,            */
 /*  1060 East Arques Avenue, Sunnyvale, California 94085                           */
 /***********************************************************************************/
+#include "common.h"    // 251224  by js.park
 
 byte ReadByteTPI(byte);
 void WriteByteTPI(byte, byte);

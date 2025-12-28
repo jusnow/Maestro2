@@ -12,6 +12,7 @@
 // Ref. Docment		: 
 // Revision History 	:
 
+#include "common.h"    // 251224  by js.park
 
 #define __USE_SIL9136_TX__
 
@@ -50,8 +51,8 @@ typedef	struct
 #define		SIL9136TX1_BUSID	TWI_CH1
 #define		SIL9136TX2_BUSID	TWI_CH1
 #else
-#define		SIL9136TX1_BUSID	TWI_CH0
-#define		SIL9136TX2_BUSID	TWI_CH0
+//#define		SIL9136TX1_BUSID	TWI_CH0    // 251224 by js.park
+//#define		SIL9136TX2_BUSID	TWI_CH0
 #endif
 
 #define		I2C_BusID			BYTE

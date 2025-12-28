@@ -15,7 +15,7 @@
 // ----------------------------------------------------------------------
 // Include files
 // ----------------------------------------------------------------------
-//#include "common.h"    // 251218 by jsPark
+#include "common.h"    // 251218 by jsPark
 #include "sil9136.h"
 
 #include "defs.h"
@@ -27,10 +27,8 @@
 #include "TPI_Regs.h"
 #include "VideoModeTable.h"
 #include "Externals.h"
-#include <stdbool.h>    // 251218 by jsPark
-//#include <stdint.h>
 
-
+// ----------------------------------------------------------------------
 
 #if defined(__USE_SIL9136_TX__)
 
